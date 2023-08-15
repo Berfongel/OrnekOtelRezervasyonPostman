@@ -2,12 +2,12 @@
 
 POST =  https://restful-booker.herokuapp.com/booking
 
-HEADERS :
+Headers :
 
 KEY = Content-Type
 Value = application/json
 
-BODY :
+Body :
 
  * raw seçilmeli
 
