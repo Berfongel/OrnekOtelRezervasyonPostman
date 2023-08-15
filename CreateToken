@@ -3,3 +3,11 @@ Post  =   https://restful-booker.herokuapp.com/auth
 Headers :
 Key = Content-Type
 Value = application/json 
+
+
+Body :
+{
+    "username" : "admin",
+    "password" : "password123"
+}
+
