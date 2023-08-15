@@ -1,0 +1,31 @@
+#UpdateBooking
+
+PUT =  https://restful-booker.herokuapp.com/booking/:id
+
+Headers :
+
+Key = Content-Type
+Value = application/json
+Key = Accept
+Value = application/json
+Key = Cookie
+Valu = token=tokendegeri
+
+
+Body :
+
+* raw seçilmeli
+{
+    "firstname" : "James",
+    "lastname" : "Brown",
+    "totalprice" : 111,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2023-07-01",
+        "checkout" : "2024-06-01"
+    },
+    "additionalneeds" : "Breakfast"
+}
+
+
+SAVE - SEND 
