@@ -1,3 +1,11 @@
 #GetBooking
 
 GET = https://restful-booker.herokuapp.com/booking
+
+
+Params : 
+
+Key : id
+Value : 717
+
+SEND
