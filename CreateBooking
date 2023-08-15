@@ -1,3 +1,28 @@
 #CreateBooking
 
 POST =  https://restful-booker.herokuapp.com/booking
+
+HEADERS :
+
+KEY = Content-Type
+Value = application/json
+
+BODY :
+
+ * raw seçilmeli
+
+{
+    "firstname" : "Deutsch",
+    "lastname" : "Deutschland",
+    "totalprice" : 111,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2023-07-01",
+        "checkout" : "2024-07-01"
+    },
+    "additionalneeds" : "Reisen"
+}
+
+SAVE - SEND 
+
+ 
